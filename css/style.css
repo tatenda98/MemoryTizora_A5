@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(214, 209, 209);
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+
+th{
+    height: 30px;
+}
+
+table, th, td{
+    border: 2px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+.tr:nth-child(odd){
+    background: black;
+    color: white;
+}
+
+button{
+    padding: 15px;
+    background-color: rgb(59, 59, 224);
+    color: black;
+    border-radius: 15%;
+}
